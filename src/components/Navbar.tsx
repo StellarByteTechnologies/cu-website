@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
               }`}
             >
               {link.label === 'Magic Code' ? (
-                <>
+                <span className="flex items-center">
                   <img
                     src="/images/magic-code.svg"
                     alt="Magic Code Icon"
@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
                   <span className="relative inline-block text-white animate-glow">
                     Magic Code
                   </span>
-                </>
+                </span>
               ) : (
                 link.label
               )}
@@ -73,41 +73,51 @@ const Navbar: React.FC = () => {
         ))}
       </div>
 
-      {/* Modern Hamburger Menu */}
+      {/* Modern Mobile Menu */}
       {menuOpen && (
-        <div className="fixed top-0 left-0 w-full h-full bg-[#1C1B1FCC] backdrop-blur-lg z-40 flex flex-col items-center justify-center space-y-8 transition-all duration-500 ease-in-out">
-          {navLinks.map((link) => (
-            <Link key={link.href} href={link.href} onClick={closeMenu}>
-              <span
-                className={`text-3xl font-semibold cursor-pointer text-white px-6 py-3 rounded-xl transition-all duration-300 flex items-center ${
-                  pathname === link.href
-                    ? 'border-b-2 border-white'
-                    : 'hover:text-white'
-                }`}
-              >
-                {link.label === 'Magic Code' ? (
-                  <>
-                    <img
-                      src="/images/magic-code.svg"
-                      alt="Magic Code Icon"
-                      className="w-5 h-5 mr-[5px]"
-                    />
-                    <span className="relative inline-block text-white animate-glow">
-                      Magic Code
+        <div className="fixed top-0 left-0 w-full bg-black z-50 flex flex-col items-center transition-all duration-500 ease-in-out">
+          <div className="w-full flex justify-between items-center px-6 py-4">
+            {/* Diara Logo */}
+            <div className="w-[114px] h-[40px]">
+              <img
+                src="/images/logo.svg"
+                alt="Diara Logo"
+                className="w-full h-full object-contain"
+              />
+            </div>
+            {/* Close Button */}
+            <button className="text-white text-3xl" onClick={closeMenu}>
+              <FiX />
+            </button>
+          </div>
+          <div className="mt-10 flex flex-col items-center space-y-6 pb-6">
+            {navLinks.map((link) => (
+              <Link key={link.href} href={link.href} onClick={closeMenu}>
+                <span
+                  className={`text-3xl font-semibold cursor-pointer text-white px-6 py-3 rounded-xl transition-all duration-300 flex items-center ${
+                    pathname === link.href
+                      ? 'border-b-2 border-white'
+                      : 'hover:text-white'
+                  }`}
+                >
+                  {link.label === 'Magic Code' ? (
+                    <span className="flex items-center">
+                      <img
+                        src="/images/magic-code.svg"
+                        alt="Magic Code Icon"
+                        className="w-5 h-5 mr-[5px]"
+                      />
+                      <span className="relative inline-block text-white animate-glow">
+                        Magic Code
+                      </span>
                     </span>
-                  </>
-                ) : (
-                  link.label
-                )}
-              </span>
-            </Link>
-          ))}
-          <button
-            className="mt-10 text-white text-xl px-5 py-2 border border-white rounded-lg hover:bg-white hover:text-[#1C1B1F] transition-all"
-            onClick={toggleMenu}
-          >
-            Close
-          </button>
+                  ) : (
+                    link.label
+                  )}
+                </span>
+              </Link>
+            ))}
+          </div>
         </div>
       )}
 
