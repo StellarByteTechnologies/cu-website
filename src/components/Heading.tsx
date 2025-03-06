@@ -15,14 +15,13 @@ const Heading: React.FC<HeadingProps> = ({ text }) => {
         {text}
       </h1>
 
-      {/* Vertical Line joining Top and Bottom */}
+      {/* Dynamic Gap to Prevent Overlap (Reduced by Half) */}
+      <div className="ml-[6px] sm:ml-[8px] md:ml-[10px] lg:ml-[12px]"></div>
+
+      {/* Vertical Line joining Top and Bottom - Ensuring Visibility */}
       <div
-        className="absolute top-0 bottom-0"
-        style={{
-          left: 'calc(70% + 20px)',
-          width: '4px',
-          backgroundColor: 'black',
-        }}
+        className="absolute top-0 bottom-0 w-[4px] bg-black"
+        style={{ left: 'calc(92% + 2px)' }}
       ></div>
 
       {/* Bottom Line */}
