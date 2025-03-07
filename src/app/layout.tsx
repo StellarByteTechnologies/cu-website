@@ -23,12 +23,16 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${poppins.variable} light`}>
       <head>
-        {/* Prevent forced dark mode */}
+        {/* Ensure proper mobile scaling */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Prevent forced dark mode from altering colors */}
         <meta name="color-scheme" content="light only" />
       </head>
-      <body className="antialiased font-poppins min-h-screen flex flex-col bg-white text-black dark:bg-white dark:text-black">
+      <body className="antialiased font-poppins min-h-screen flex flex-col bg-white text-black">
         <Navbar />
-        <main className="flex-grow overflow-auto">{children}</main>
+        <main className="flex-grow min-h-[80vh] px-4 sm:px-6 md:px-12">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
