@@ -21,8 +21,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={poppins.variable}>
-      <body className="antialiased font-poppins min-h-screen flex flex-col">
+    <html lang="en" className={`${poppins.variable} light`}>
+      <head>
+        {/* Prevent forced dark mode */}
+        <meta name="color-scheme" content="light only" />
+      </head>
+      <body className="antialiased font-poppins min-h-screen flex flex-col bg-white text-black dark:bg-white dark:text-black">
         <Navbar />
         <main className="flex-grow overflow-auto">{children}</main>
         <Footer />
