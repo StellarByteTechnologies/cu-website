@@ -24,28 +24,13 @@ const DoctorTestimonialSection: React.FC<DoctorTestimonialSectionProps> = ({
   layout = 'left',
 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    const startProgress = () => {
-      setProgress(0);
-      const progressInterval = setInterval(() => {
-        setProgress((prev) => (prev >= 100 ? 100 : prev + 1));
-      }, slideInterval / 100);
+    const slideIntervalID = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % testimonials.length);
+    }, slideInterval);
 
-      const slideIntervalID = setInterval(() => {
-        setCurrentSlide((prevSlide) => (prevSlide + 1) % testimonials.length);
-        setProgress(0); // Reset progress on slide change
-      }, slideInterval);
-
-      return () => {
-        clearInterval(progressInterval);
-        clearInterval(slideIntervalID);
-      };
-    };
-
-    const cleanup = startProgress();
-    return cleanup;
+    return () => clearInterval(slideIntervalID);
   }, [testimonials.length, slideInterval]);
 
   const { doctorImage, videoSrc, testimonialText, svgPath, name, occupation } =
