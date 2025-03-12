@@ -13,23 +13,25 @@ const Title: React.FC<TitleProps> = ({
 }) => {
   return (
     <div
-      className={`flex items-center ${
-        position === 'right' ? 'flex-row-reverse' : ''
-      } w-full`}
+      className={`flex items-center w-full max-w-[1327px] mx-auto px-6 md:px-12 ${
+        position === 'right'
+          ? 'flex-row-reverse justify-start'
+          : 'justify-start'
+      }`}
     >
-      {/* Title Text */}
-      <h2 className="text-[24px] sm:text-[30px] md:text-[36px] font-semibold leading-[110%] text-left">
+      {/* ✅ Title Text */}
+      <h2 className="text-[24px] sm:text-[30px] md:text-[36px] font-semibold leading-[110%] text-black">
         {text}
       </h2>
 
-      {/* Dynamic Spacing Between Text and Line */}
+      {/* ✅ Increased Spacing & Aligned Line to Navbar Right */}
       <div
-        className={`${
+        className={`h-[16px] sm:h-[25px] md:h-[39.99px] rounded-[20px] flex-grow ${
           position === 'right'
-            ? 'ml-0 mr-[12px] sm:mr-[16px] md:mr-[60px]'
-            : 'ml-[12px] sm:ml-[16px] md:ml-[60px]'
-        } flex-grow h-[16px] sm:h-[25px] md:h-[39.99px] rounded-[20px]`}
-        style={{ backgroundColor: lineColor }}
+            ? 'mr-[20px] sm:mr-[40px] md:mr-[100px]'
+            : 'ml-[20px] sm:ml-[40px] md:ml-[100px]'
+        }`}
+        style={{ backgroundColor: lineColor, maxWidth: '900px' }} // ✅ Adjusted max width to align with Navbar
       ></div>
     </div>
   );

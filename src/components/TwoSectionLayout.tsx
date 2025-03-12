@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   FirstSection,
-  SecondSection,
+  SecondSection, // ✅ Now Correctly Imported
   FirstSectionProps,
   SecondSectionProps,
 } from './FirstSection';
@@ -16,12 +16,16 @@ const TwoSectionLayout: React.FC<TwoSectionLayoutProps> = ({
   secondSectionData,
 }) => {
   return (
-    <div className="w-full md:w-[1327px] h-auto md:h-[632px] flex flex-col md:flex-row justify-between bg-white gap-5 p-4">
-      {/* First Section */}
-      <FirstSection {...firstSectionData} />
+    <div className="w-full max-w-[1327px] mx-auto flex flex-col md:flex-row items-stretch justify-between bg-white gap-6 md:gap-10 p-6 md:p-12 rounded-lg shadow-md">
+      {/* ✅ First Section (Left) */}
+      <div className="w-full md:w-1/2 flex">
+        <FirstSection {...firstSectionData} />
+      </div>
 
-      {/* Second Section */}
-      <SecondSection {...secondSectionData} />
+      {/* ✅ Second Section (Right - Slider) */}
+      <div className="w-full md:w-1/2 flex">
+        <SecondSection {...secondSectionData} />
+      </div>
     </div>
   );
 };

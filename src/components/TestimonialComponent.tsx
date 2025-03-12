@@ -22,12 +22,13 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
           <Image
             src={backgroundImage}
             alt="Testimonial Background"
-            layout="fill"
-            objectFit="cover"
+            width={400} // ✅ Set a fixed width
+            height={504} // ✅ Set a fixed height
+            className="w-full h-full object-cover"
           />
           <button
             onClick={() => setIsPlaying(true)}
-            className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 text-white text-3xl md:text-4xl"
+            className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 text-white text-3xl md:text-4xl transition-all hover:bg-opacity-60"
           >
             ▶
           </button>
@@ -39,7 +40,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
         </video>
       )}
 
-      {/* Bottom Transparent Text Section */}
+      {/* ✅ Bottom Transparent Text Section */}
       <div className="absolute bottom-4 left-4 right-4 w-[90%] h-auto bg-black bg-opacity-50 text-white p-2 rounded-[8px] flex items-center justify-center">
         <p className="text-[16px] md:text-[20px] font-medium leading-[16.2px] text-center tracking-[-0.13px]">
           {text}
@@ -74,7 +75,7 @@ const TestimonialComponent: React.FC = () => {
   ];
 
   return (
-    <div className="flex lg:grid lg:grid-cols-4 gap-4 overflow-x-auto lg:overflow-visible px-4 snap-x snap-mandatory">
+    <div className="flex flex-nowrap lg:grid lg:grid-cols-4 gap-4 overflow-x-auto lg:overflow-visible px-4 snap-x snap-mandatory scrollbar-hide">
       {testimonials.map((testimonial, index) => (
         <TestimonialCard
           key={index}

@@ -1,4 +1,6 @@
+'use client';
 import React from 'react';
+import { motion } from 'framer-motion';
 
 interface HeadingProps {
   text: string;
@@ -6,27 +8,27 @@ interface HeadingProps {
 
 const Heading: React.FC<HeadingProps> = ({ text }) => {
   return (
-    <div className="w-full flex items-center relative py-4">
-      {/* Top Line */}
-      <div className="absolute top-0 left-0 w-full h-[4px] bg-black"></div>
+    <motion.div
+      className="relative w-full max-w-[1327px] mx-auto flex flex-col items-start py-6 px-6 md:px-12"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
+      viewport={{ once: true }}
+    >
+      {/* ✅ Top Line (Full Width on Mobile, Aligned with Navbar on Larger Screens) */}
+      <div className="absolute top-0 left-0 w-full sm:w-[90%] md:w-full h-[3px] bg-black"></div>
 
-      {/* Heading Text */}
-      <h1 className="text-[32px] sm:text-[36px] md:text-[40px] lg:text-[48px] font-semibold leading-[110%] text-black">
+      {/* ✅ Left-Aligned Heading Text */}
+      <h1 className="text-[28px] sm:text-[36px] md:text-[42px] lg:text-[48px] font-semibold leading-[110%] text-black">
         {text}
       </h1>
 
-      {/* Dynamic Gap to Prevent Overlap (Reduced by Half) */}
-      <div className="ml-[6px] sm:ml-[8px] md:ml-[10px] lg:ml-[12px]"></div>
+      {/* ✅ Vertical Line (Positioned with Navbar Alignment) */}
+      <div className="absolute top-0 bottom-0 w-[3px] bg-black right-[calc(5%)] sm:right-[calc(10%)] md:right-[calc(8%)]"></div>
 
-      {/* Vertical Line joining Top and Bottom - Ensuring Visibility */}
-      <div
-        className="absolute top-0 bottom-0 w-[4px] bg-black"
-        style={{ left: 'calc(92% + 2px)' }}
-      ></div>
-
-      {/* Bottom Line */}
-      <div className="absolute bottom-0 left-0 w-full h-[4px] bg-black"></div>
-    </div>
+      {/* ✅ Bottom Line (Full Width on Mobile, Aligned with Navbar on Larger Screens) */}
+      <div className="absolute bottom-0 left-0 w-full sm:w-[90%] md:w-full h-[3px] bg-black"></div>
+    </motion.div>
   );
 };
 
