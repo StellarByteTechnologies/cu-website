@@ -12,282 +12,182 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const PrivacyPolicy = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        style: {
-            width: '100%',
-            maxWidth: '1313px',
-            margin: '200px auto',
-            fontFamily: 'Poppins',
-            padding: '0 20px'
-        },
+        className: "w-full max-w-[1313px] mx-auto mt-[150px] px-4 md:px-8",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                style: {
-                    fontWeight: 'bold',
-                    fontSize: '64px',
-                    lineHeight: '120%',
-                    textAlign: 'left',
-                    marginBottom: '20px'
-                },
+                className: "font-bold text-[40px] md:text-[64px] leading-[120%] text-left mb-8",
                 children: "Privacy Policy"
             }, void 0, false, {
                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                lineNumber: 14,
+                lineNumber: 6,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    marginTop: '82px'
-                },
+                className: "mt-[60px]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-medium text-[16px] leading-[150%] mb-6",
                         children: "Effective Date: 01-January-2025"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/privacy-policy/page.tsx",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "font-medium text-[16px] leading-[150%] mb-6",
+                        children: 'Diara Care Private Limited ("we," "us," or "our") respects your privacy and is committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, make purchases, or interact with us. By using our services, you consent to the practices outlined in this Privacy Policy.'
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/privacy-policy/page.tsx",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "font-bold text-[24px] md:text-[32px] leading-[120%] mb-4",
+                        children: "1. Information We Collect"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/privacy-policy/page.tsx",
+                        lineNumber: 24,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "font-medium text-[16px] leading-[150%] mb-4",
+                        children: "We may collect the following types of information:"
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
                         lineNumber: 27,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
-                        children: 'Diara Care Private Limited ("we," "us," or "our") respects your privacy and is committed to protecting the personal information you share with us. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit our website, make purchases, or interact with us. By using our services, you agree to the practices described in this Privacy Policy.'
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 38,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
-                        children: "1. Information We Collect"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 55,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '24px',
-                            lineHeight: '120%',
-                            marginBottom: '10px'
-                        },
-                        children: "Personal Information"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 65,
-                        columnNumber: 9
-                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "list-disc pl-6 font-medium text-[16px] leading-[150%] mb-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "Name, email address, phone number, billing and shipping address"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 83,
+                                lineNumber: 32,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "Payment details (processed securely through third-party payment gateways)"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 86,
+                                lineNumber: 35,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "Order details and purchase history"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 90,
+                                lineNumber: 39,
                                 columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 75,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '24px',
-                            lineHeight: '120%',
-                            marginBottom: '10px'
-                        },
-                        children: "Non-Personal Information"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 93,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
-                        children: [
+                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "IP address, browser type, operating system"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 111,
+                                lineNumber: 40,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "Website usage data, including pages visited, time spent, and clicks"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 112,
+                                lineNumber: 41,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 103,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '24px',
-                            lineHeight: '120%',
-                            marginBottom: '10px'
-                        },
-                        children: "Cookies and Tracking Technologies"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 117,
+                        lineNumber: 31,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
-                        children: "We use cookies and similar technologies to enhance your browsing experience, analyze website performance, and personalize content."
-                    }, void 0, false, {
+                        className: "font-medium text-[16px] leading-[150%] mb-6",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "Cookies and Tracking Technologies:"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/privacy-policy/page.tsx",
+                                lineNumber: 47,
+                                columnNumber: 11
+                            }, this),
+                            " We use cookies and similar technologies to enhance your browsing experience, analyze website performance, and personalize content."
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 127,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-bold text-[24px] md:text-[32px] leading-[120%] mb-4",
                         children: "2. How We Use Your Information"
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 139,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "list-disc pl-6 font-medium text-[16px] leading-[150%] mb-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "To process and fulfill your orders, including shipping and returns"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 157,
+                                lineNumber: 56,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "To provide customer support and respond to inquiries"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 160,
+                                lineNumber: 59,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "To improve our website, products, and services"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 161,
+                                lineNumber: 60,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "To send promotional emails, newsletters, or offers (with your consent)"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 162,
+                                lineNumber: 61,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "To comply with legal and regulatory obligations"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 166,
+                                lineNumber: 65,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 149,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-bold text-[24px] md:text-[32px] leading-[120%] mb-4",
                         children: "3. Sharing of Information"
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 169,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-medium text-[16px] leading-[150%] mb-4",
                         children: "We do not sell or rent your personal information to third parties. However, we may share your information in the following circumstances:"
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 179,
+                        lineNumber: 71,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "list-disc pl-6 font-medium text-[16px] leading-[150%] mb-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: [
@@ -295,14 +195,14 @@ const PrivacyPolicy = ()=>{
                                         children: "Service Providers:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                        lineNumber: 199,
+                                        lineNumber: 78,
                                         columnNumber: 13
                                     }, this),
                                     " With third-party vendors (e.g., payment processors, delivery partners) to fulfill your orders."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 198,
+                                lineNumber: 77,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -311,14 +211,14 @@ const PrivacyPolicy = ()=>{
                                         children: "Legal Obligations:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                        lineNumber: 203,
+                                        lineNumber: 82,
                                         columnNumber: 13
                                     }, this),
                                     " To comply with applicable laws, regulations, or legal processes."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 202,
+                                lineNumber: 81,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -327,289 +227,221 @@ const PrivacyPolicy = ()=>{
                                         children: "Business Transfers:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                        lineNumber: 207,
+                                        lineNumber: 86,
                                         columnNumber: 13
                                     }, this),
                                     " In the event of a merger, acquisition, or sale of our assets, your information may be transferred."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 206,
+                                lineNumber: 85,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 190,
+                        lineNumber: 76,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-bold text-[24px] md:text-[32px] leading-[120%] mb-4",
                         children: "4. Data Security"
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 213,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-medium text-[16px] leading-[150%] mb-6",
                         children: "We implement industry-standard measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. While we strive to safeguard your information, no method of transmission over the Internet or electronic storage is entirely secure."
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 223,
+                        lineNumber: 95,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-bold text-[24px] md:text-[32px] leading-[120%] mb-4",
                         children: "5. Your Rights"
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 238,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
-                        children: "You have the right to:"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 248,
+                        lineNumber: 103,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "list-disc pl-6 font-medium text-[16px] leading-[150%] mb-4",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "Access, update, or delete your personal information"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 266,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "Opt-out of receiving marketing communications"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 267,
+                                lineNumber: 108,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "Withdraw consent where applicable"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 268,
+                                lineNumber: 109,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "Request a copy of the data we hold about you"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 269,
+                                lineNumber: 110,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 258,
+                        lineNumber: 106,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-medium text-[16px] leading-[150%] mb-6",
                         children: [
                             "To exercise these rights, contact us at",
                             ' ',
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "mailto:support@diaracare.in",
+                                className: "text-blue-600 underline",
                                 children: "support@diaracare.in"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 280,
+                                lineNumber: 114,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 271,
+                        lineNumber: 112,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-bold text-[24px] md:text-[32px] leading-[120%] mb-4",
                         children: "6. Retention of Information"
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 283,
+                        lineNumber: 122,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-medium text-[16px] leading-[150%] mb-6",
                         children: "We retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy unless a longer retention period is required or permitted by law."
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 293,
+                        lineNumber: 125,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-bold text-[24px] md:text-[32px] leading-[120%] mb-4",
                         children: "7. Third-Party Links"
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 306,
+                        lineNumber: 131,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-medium text-[16px] leading-[150%] mb-6",
                         children: "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these sites."
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 316,
+                        lineNumber: 134,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-bold text-[24px] md:text-[32px] leading-[120%] mb-4",
                         children: "8. Updates to this Privacy Policy"
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 328,
+                        lineNumber: 139,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-medium text-[16px] leading-[150%] mb-6",
                         children: 'We may update this Privacy Policy from time to time. Changes will be effective when posted on this page, and the "Effective Date" will be updated accordingly.'
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 338,
+                        lineNumber: 142,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-bold text-[24px] md:text-[32px] leading-[120%] mb-4",
                         children: "9. Contact Us"
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 351,
+                        lineNumber: 148,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "font-medium text-[16px] leading-[150%] mb-4",
                         children: "If you have any questions or concerns about this Privacy Policy, please contact us:"
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 361,
+                        lineNumber: 151,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%'
-                        },
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                        className: "list-disc pl-6 font-medium text-[16px] leading-[150%] mb-4",
                         children: [
-                            "Email: ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "mailto:support@diaracare.in",
-                                children: "support@diaracare.in"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                children: [
+                                    "Email:",
+                                    ' ',
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "mailto:support@diaracare.in",
+                                        className: "text-blue-600 underline",
+                                        children: "support@diaracare.in"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/privacy-policy/page.tsx",
+                                        lineNumber: 159,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 373,
-                                columnNumber: 18
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                fileName: "[project]/src/app/privacy-policy/page.tsx",
-                                lineNumber: 374,
+                                lineNumber: 157,
                                 columnNumber: 11
                             }, this),
-                            "Address: RZ-1/15, St No. 4, Tughlakabad Ext., Alaknanda Market, New Delhi - 110019"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                children: "Phone: +91-9220329955"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/privacy-policy/page.tsx",
+                                lineNumber: 166,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                children: "Address: RZ-1/15, St No. 4, Tughlakabad Ext., Alaknanda Market, New Delhi - 110019"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/privacy-policy/page.tsx",
+                                lineNumber: 167,
+                                columnNumber: 11
+                            }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 372,
+                        lineNumber: 156,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginTop: '40px'
-                        },
+                        className: "font-medium text-[16px] leading-[150%] mt-10 mb-20",
                         children: "Thank you for trusting Diara Care Private Limited with your personal information. Your privacy is our priority."
                     }, void 0, false, {
                         fileName: "[project]/src/app/privacy-policy/page.tsx",
-                        lineNumber: 379,
+                        lineNumber: 173,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/privacy-policy/page.tsx",
-                lineNumber: 26,
+                lineNumber: 10,
                 columnNumber: 7
             }, this)
         ]

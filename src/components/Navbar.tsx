@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -41,11 +42,15 @@ const Navbar: React.FC = () => {
       {/* Navbar Container */}
       <nav className="w-[87%] max-w-[1327px] px-6 md:px-12 h-[70px] fixed top-4 left-1/2 transform -translate-x-1/2 flex justify-between items-center bg-[#1C1B1F]/80 backdrop-blur-lg rounded-[16px] z-50 shadow-lg">
         {/* Logo */}
-        <div className="text-white text-2xl font-normal tracking-wide relative">
+        <div className="relative">
           <Link href="/">
-            <span className="relative after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-white">
-              diara
-            </span>
+            <Image
+              src="/images/logo.svg"
+              alt="Diara Logo"
+              width={80} // Replace with desired width
+              height={80} // Replace with desired height
+              priority
+            />
           </Link>
         </div>
 

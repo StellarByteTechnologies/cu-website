@@ -12,162 +12,193 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const ShippingPolicy = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        style: {
-            width: '100%',
-            maxWidth: '1313px',
-            margin: '200px auto',
-            fontFamily: 'Poppins',
-            padding: '0 20px'
-        },
+        className: "w-full max-w-[1313px] mx-auto mt-[200px] px-6 md:px-8 font-poppins",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                style: {
-                    fontWeight: 'bold',
-                    fontSize: '64px',
-                    lineHeight: '120%',
-                    textAlign: 'left',
-                    marginBottom: '20px'
-                },
+                className: "font-bold text-[48px] md:text-[64px] leading-[120%] text-left mb-10 text-black",
                 children: "Shipping Policy"
             }, void 0, false, {
                 fileName: "[project]/src/app/shipping-policy/page.tsx",
-                lineNumber: 14,
+                lineNumber: 6,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    marginTop: '82px'
-                },
+                className: "mt-[82px]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
+                        className: "text-[24px] md:text-[28px] font-bold leading-[120%] border-t border-gray-300 pt-6 mb-4",
                         children: "Shipping"
                     }, void 0, false, {
                         fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 27,
+                        lineNumber: 11,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
-                        children: "At Diara Care Private Limited, we offer free shipping for all orders with an order value of Rs. 1000 and above. We partner with reliable courier companies and Speed Post to ensure safe and timely delivery. However, Diara Care is not liable for any delays caused by the courier company, Speed Post, or unforeseen factors beyond our control. While we strive to deliver your order within the estimated timeline mentioned in your order confirmation, delays may occasionally occur. In the rare event that delivery is not possible due to reasons beyond our control, such as inaccessible delivery locations, poor courier service in the area, or force majeure events, we will keep you informed. If your order is canceled under such circumstances, a full refund will be processed."
-                    }, void 0, false, {
+                        className: "text-[16px] md:text-[18px]  leading-[140%] mb-6 text-gray-600",
+                        children: [
+                            "At ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "Diara Care Private Limited"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                lineNumber: 15,
+                                columnNumber: 14
+                            }, this),
+                            ", we offer",
+                            ' ',
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "free shipping"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                lineNumber: 16,
+                                columnNumber: 11
+                            }, this),
+                            " for all orders with an order value of",
+                            ' ',
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "Rs. 1000 and above"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                lineNumber: 17,
+                                columnNumber: 11
+                            }, this),
+                            ". We partner with reliable courier companies and Speed Post to ensure safe and timely delivery. However,",
+                            ' ',
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "Diara Care"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                lineNumber: 19,
+                                columnNumber: 11
+                            }, this),
+                            " is not liable for any delays caused by the courier company, Speed Post, or unforeseen factors beyond our control. While we strive to deliver your order within the estimated timeline mentioned in your order confirmation, delays may occasionally occur. In the rare event that delivery is not possible due to reasons beyond our control, such as inaccessible delivery locations, poor courier service in the area, or force majeure events, we will keep you informed. If your order is canceled under such circumstances, a full refund will be processed."
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 37,
+                        lineNumber: 14,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
+                        className: "text-[24px] md:text-[28px] font-bold leading-[120%] border-t border-gray-300 pt-6 mb-4",
                         children: "Cancellations"
                     }, void 0, false, {
                         fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 59,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                children: "Pre-Dispatch Cancellations:"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/shipping-policy/page.tsx",
-                                lineNumber: 77,
-                                columnNumber: 11
-                            }, this),
-                            " Orders can be canceled before dispatch, subject to a 10% deduction as a transaction fee."
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 69,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                children: "Post-Dispatch Cancellations:"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/shipping-policy/page.tsx",
-                                lineNumber: 88,
-                                columnNumber: 11
-                            }, this),
-                            " If you wish to cancel your order after it has been dispatched, kindly refuse the order upon delivery. Once our delivery partner updates the shipment status as “RTO (Return to Origin) initiated,” your order will be canceled, and a refund will be processed."
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 80,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
-                        children: "Refunds will be credited to the original payment method within 5 to 7 business days."
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 94,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
-                        children: "Returns Policy"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 106,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
-                        children: "At Diara Care, we ensure that every shipment undergoes two levels of inspection and packaging before dispatch, minimizing the likelihood of damage. However, in the unlikely event of damage, here’s how we handle replacements:"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 116,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "list-disc ml-8 text-[16px] md:text-[18px]  leading-[140%] mb-6 text-gray-600 space-y-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                        children: "Pre-Dispatch Cancellations:"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                        lineNumber: 35,
+                                        columnNumber: 13
+                                    }, this),
+                                    " Orders can be canceled before dispatch, subject to a ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                        children: "10% deduction"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                        lineNumber: 36,
+                                        columnNumber: 43
+                                    }, this),
+                                    " as a transaction fee."
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                lineNumber: 34,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                        children: "Post-Dispatch Cancellations:"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                        lineNumber: 40,
+                                        columnNumber: 13
+                                    }, this),
+                                    " If you wish to cancel your order after it has been dispatched, kindly refuse the order upon delivery. Once our delivery partner updates the shipment status as ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                        children: "“RTO (Return to Origin) initiated,”"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                        lineNumber: 43,
+                                        columnNumber: 16
+                                    }, this),
+                                    " your order will be canceled, and a refund will be processed."
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                lineNumber: 39,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/shipping-policy/page.tsx",
+                        lineNumber: 33,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-[16px] md:text-[18px]  leading-[140%] mb-6 text-gray-600",
+                        children: [
+                            "Refunds will be credited to the original payment method within",
+                            ' ',
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "5 to 7 business days"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                lineNumber: 49,
+                                columnNumber: 11
+                            }, this),
+                            "."
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/shipping-policy/page.tsx",
+                        lineNumber: 47,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-[24px] md:text-[28px] font-bold leading-[120%] border-t border-gray-300 pt-6 mb-4",
+                        children: "Returns Policy"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/shipping-policy/page.tsx",
+                        lineNumber: 52,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-[16px] md:text-[18px] leading-[140%] mb-6 text-gray-600",
+                        children: [
+                            "At ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "Diara Care"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                lineNumber: 56,
+                                columnNumber: 14
+                            }, this),
+                            ", we ensure that every shipment undergoes ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "two levels of inspection and packaging"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                lineNumber: 57,
+                                columnNumber: 21
+                            }, this),
+                            ' ',
+                            "before dispatch, minimizing the likelihood of damage. However, in the unlikely event of damage, here’s how we handle replacements:"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/shipping-policy/page.tsx",
+                        lineNumber: 55,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                        className: "list-disc ml-8 text-[16px] md:text-[18px]  leading-[140%] mb-6 text-gray-600 space-y-3",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: [
@@ -175,14 +206,14 @@ const ShippingPolicy = ()=>{
                                         children: "Replacement Guarantee:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/shipping-policy/page.tsx",
-                                        lineNumber: 138,
+                                        lineNumber: 63,
                                         columnNumber: 13
                                     }, this),
                                     " Products are eligible for replacement only in cases of manufacturing defects or damage during transportation."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/shipping-policy/page.tsx",
-                                lineNumber: 137,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -191,14 +222,23 @@ const ShippingPolicy = ()=>{
                                         children: "Notification Period:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/shipping-policy/page.tsx",
-                                        lineNumber: 143,
+                                        lineNumber: 68,
                                         columnNumber: 13
                                     }, this),
-                                    " You must notify us within 24 hours of delivery if the product is damaged or defective."
+                                    " You must notify us within",
+                                    ' ',
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                        children: "24 hours"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                        lineNumber: 69,
+                                        columnNumber: 13
+                                    }, this),
+                                    " of delivery if the product is damaged or defective."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/shipping-policy/page.tsx",
-                                lineNumber: 142,
+                                lineNumber: 67,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -207,144 +247,147 @@ const ShippingPolicy = ()=>{
                                         children: "Proof Submission:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/shipping-policy/page.tsx",
-                                        lineNumber: 147,
+                                        lineNumber: 73,
                                         columnNumber: 13
                                     }, this),
                                     " To process your replacement request, we require clear photos and videos of:",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                        className: "list-disc ml-8 space-y-2 mt-2",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "The damaged product"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/shipping-policy/page.tsx",
-                                                lineNumber: 150,
+                                                lineNumber: 76,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "The package (including the shipping label on the box)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/shipping-policy/page.tsx",
-                                                lineNumber: 151,
+                                                lineNumber: 77,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "The invoice slip inside the box"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/shipping-policy/page.tsx",
-                                                lineNumber: 152,
+                                                lineNumber: 78,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/shipping-policy/page.tsx",
-                                        lineNumber: 149,
+                                        lineNumber: 75,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/shipping-policy/page.tsx",
-                                lineNumber: 146,
+                                lineNumber: 72,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 129,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
-                        children: "If the returned product is out of stock, we will process a refund to your original payment method within 5 to 7 business days."
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 156,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
-                        children: "Currency Transactions"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 168,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
-                        children: "All transactions on our platform are processed in Indian Rupees (INR)."
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 178,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontWeight: 'bold',
-                            fontSize: '32px',
-                            lineHeight: '120%',
-                            marginBottom: '20px'
-                        },
-                        children: "Processing Orders"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 189,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%',
-                            marginBottom: '20px'
-                        },
+                        className: "text-[16px] md:text-[18px]  leading-[140%] mb-6 text-gray-600",
                         children: [
-                            "Our business hours are 10:00 AM to 6:00 PM IST, Monday to Friday. For queries outside business hours, you can email us at",
+                            "If the returned product is out of stock, we will process a refund to your original payment method within",
                             ' ',
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "mailto:support@diara.care",
-                                children: "support@diara.care"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "5 to 7 business days"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/shipping-policy/page.tsx",
-                                lineNumber: 209,
+                                lineNumber: 85,
                                 columnNumber: 11
                             }, this),
-                            ", and we will respond promptly."
+                            "."
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 199,
+                        lineNumber: 82,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-[24px] md:text-[28px] font-bold leading-[120%] border-t border-gray-300 pt-6 mb-4",
+                        children: "Currency Transactions"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/shipping-policy/page.tsx",
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontWeight: '500',
-                            fontSize: '16px',
-                            lineHeight: '150%'
-                        },
+                        className: "text-[16px] md:text-[18px]  leading-[140%] mb-6 text-gray-600",
+                        children: [
+                            "All transactions on our platform are processed in",
+                            ' ',
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "Indian Rupees (INR)."
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                lineNumber: 93,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/shipping-policy/page.tsx",
+                        lineNumber: 91,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-[24px] md:text-[28px] font-bold leading-[120%] border-t border-gray-300 pt-6 mb-4",
+                        children: "Processing Orders"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/shipping-policy/page.tsx",
+                        lineNumber: 96,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-[16px] md:text-[18px] leading-[140%] mb-4 text-gray-600",
+                        children: [
+                            "Our business hours are ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "10:00 AM to 6:00 PM IST"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                lineNumber: 100,
+                                columnNumber: 34
+                            }, this),
+                            ", Monday to Friday. For queries outside business hours, you can email us at",
+                            ' ',
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "mailto:support@diara.care",
+                                className: "text-blue-600 underline",
+                                children: "support@diara.care"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/shipping-policy/page.tsx",
+                                lineNumber: 103,
+                                columnNumber: 11
+                            }, this),
+                            ' ',
+                            "and we will respond promptly."
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/shipping-policy/page.tsx",
+                        lineNumber: 99,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-[16px] md:text-[18px] text-gray-600 leading-[140%] mb-[40px]",
                         children: "We aim to make your shopping experience seamless and satisfactory. For more information on tracking your order, editing the address, or other queries, feel free to reach out to us."
                     }, void 0, false, {
                         fileName: "[project]/src/app/shipping-policy/page.tsx",
-                        lineNumber: 212,
+                        lineNumber: 111,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/shipping-policy/page.tsx",
-                lineNumber: 26,
+                lineNumber: 10,
                 columnNumber: 7
             }, this)
         ]

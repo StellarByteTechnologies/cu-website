@@ -75,10 +75,10 @@ const Footer = () => {
                 <p className="text-[#8F9FA3] text-[12px] sm:text-[14px] leading-[160%]">
                   Email:{' '}
                   <a
-                    href="mailto:support@diaracare.in"
+                    href="mailto:support@diara.care"
                     className="hover:text-white"
                   >
-                    support@diaracare.in
+                    support@diara.care
                   </a>
                   <br />
                   Address: RZ-1/15, St No. 4, Tughlakabad Ext., Alaknanda

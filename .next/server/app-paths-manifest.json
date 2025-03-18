@@ -1,6 +1,9 @@
 {
   "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/terms/page": "app/terms/page.js",
+  "/privacy-policy/page": "app/privacy-policy/page.js",
+  "/shipping-policy/page": "app/shipping-policy/page.js",
   "/about-us/page": "app/about-us/page.js",
-  "/testimonials/page": "app/testimonials/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/returns-refunds-cancellation-policy/page": "app/returns-refunds-cancellation-policy/page.js"
 }

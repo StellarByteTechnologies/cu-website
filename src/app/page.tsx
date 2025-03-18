@@ -163,6 +163,19 @@ const Home: NextPage = () => {
           />
         </div>
 
+        {/* Ronagen + Hair Serum Section */}
+        <div className="my-8">
+          <Title
+            text="Ronagen+ Hair Serum"
+            lineColor="#0AB96D"
+            position="right"
+          />
+          <TwoSectionLayout
+            firstSectionData={firstSectionData}
+            secondSectionData={secondSectionData}
+          />
+        </div>
+
         {/* Experts Section */}
         <div className="my-8">
           <Heading text="TRUSTED BY EXPERTS" />
