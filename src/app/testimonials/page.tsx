@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import Heading from '@/components/Heading';
+import Heading from '@/components/features/products/Heading';
 import DoctorTestimonialSection from '@/components/features/testimonials/DoctorTestimonialSection';
 import { motion } from 'framer-motion';
 
