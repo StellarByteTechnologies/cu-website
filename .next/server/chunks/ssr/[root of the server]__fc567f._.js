@@ -101,7 +101,7 @@ const Navbar = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                className: "w-[87%] max-w-[1327px] px-6 md:px-12 h-[70px] fixed top-4 left-1/2 transform -translate-x-1/2 flex justify-between items-center bg-[#1C1B1F]/80 backdrop-blur-lg rounded-[16px] z-50 shadow-lg",
+                className: "w-[90%] md:w-[87%] max-w-[1327px] px-4 md:px-12 h-[70px] fixed top-[40px] sm:top-4 left-1/2 transform -translate-x-1/2 flex justify-between items-center bg-[#1C1B1F]/80 backdrop-blur-lg rounded-[16px] z-50 shadow-lg",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "relative",
@@ -184,7 +184,7 @@ const Navbar = ()=>{
                 ref: menuRef,
                 className: `fixed inset-0 z-50 bg-black/80 backdrop-blur-lg transition-transform duration-500 ease-in-out ${menuOpen ? 'translate-x-0' : 'translate-x-full'}`,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "fixed top-0 right-0 w-[75%] sm:w-[60%] h-full bg-[#1C1B1F]/90 backdrop-blur-xl shadow-lg rounded-l-xl p-8 flex flex-col items-center",
+                    className: " fixed top-0 right-0 w-[75%] sm:w-[60%] h-full bg-[#1C1B1F]/90 backdrop-blur-xl shadow-lg rounded-l-xl p-6 flex flex-col items-center",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             className: "absolute top-5 right-5 text-white text-3xl",
