@@ -81,6 +81,9 @@ const Navbar: React.FC = () => {
         <button
           className="lg:hidden text-white text-3xl cursor-pointer z-50"
           onClick={toggleMenu}
+          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={menuOpen}
+          aria-controls="mobile-menu"
         >
           {menuOpen ? <FiX /> : <FiMenu />}
         </button>
@@ -88,6 +91,7 @@ const Navbar: React.FC = () => {
 
       {/* Modern Mobile Navigation Panel */}
       <div
+        id="mobile-menu"
         ref={menuRef}
         className={`fixed inset-0 z-50 bg-black/80 backdrop-blur-lg transition-transform duration-500 ease-in-out ${
           menuOpen ? 'translate-x-0' : 'translate-x-full'

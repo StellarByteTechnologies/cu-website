@@ -9,6 +9,7 @@ interface ProductComparisonSliderProps {
   productIcon: string;
   productImage: string;
   productTitle: string;
+  className?: string;
 }
 
 const ProductComparisonSlider: React.FC<ProductComparisonSliderProps> = ({
@@ -17,6 +18,7 @@ const ProductComparisonSlider: React.FC<ProductComparisonSliderProps> = ({
   productIcon,
   productImage,
   productTitle,
+  className = '',
 }) => {
   const [sliderPosition, setSliderPosition] = useState(50);
   const sliderRef = useRef<HTMLDivElement>(null);
@@ -39,7 +41,7 @@ const ProductComparisonSlider: React.FC<ProductComparisonSliderProps> = ({
 
   return (
     <motion.div
-      className="flex flex-col md:flex-row gap-6 w-full max-w-[1327px] mx-auto"
+      className={`flex flex-col md:flex-row gap-6 w-full max-w-[1327px] mx-auto ${className}`}
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}

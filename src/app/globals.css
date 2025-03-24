@@ -29,4 +29,32 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  width: 100%;
+}
+/* Added component classes */
+@layer components {
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-black mb-6;
+  }
+  
+  .card {
+    @apply bg-brand-light rounded-card p-6 shadow-card;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-brand-dark to-gray-700 text-white font-bold py-3 px-6 rounded-button;
+  }
+  
+  .form-input {
+    @apply w-full h-14 text-gray-500 font-medium text-base leading-normal pl-8 border border-gray-300 rounded-button focus:ring-2 focus:ring-brand-primary focus:outline-none;
+  }
+}
 
+/* Focus styles for accessibility */
+@layer base {
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand-primary;
+  }
+}

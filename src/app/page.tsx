@@ -1,13 +1,13 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
-import TwoSectionLayout from '../components/TwoSectionLayout';
-import Heading from '../components/Heading';
-import Title from '../components/Title';
+import TwoSectionLayout from '../components/features/products/TwoSectionLayout';
+import Heading from '../components/features/products/Heading';
+import Title from '../components/features/products/Title';
 import TestimonialComponent from '@/components/TestimonialComponent';
-import HeroComponent from '@/components/HeroComponent';
-import IconTextRow from '../components/IconTextRow';
-import DoctorTestimonialSection from '@/components/DoctorTestimonialSection';
-import ProductComparisonSlider from '@/components/ProductComparisonSlider';
+import HeroComponent from '@/components/features/products/HeroComponent';
+import IconTextRow from '../components/features/products/IconTextRow';
+import DoctorTestimonialSection from '@/components/features/testimonials/DoctorTestimonialSection';
+import ProductComparisonSlider from '@/components/features/products/ProductComparisonSlider';
 
 const Home: NextPage = () => {
   const firstSectionData = {
@@ -89,24 +89,23 @@ const Home: NextPage = () => {
   ];
 
   return (
-    <div className="min-h-screen">
-      {/* Navbar */}
-
+    <div className="min-h-screen flex flex-col">
       {/* Hero Section */}
       <HeroComponent
         videoSrc="/videos/background.mp4"
         title="Science-Driven Care, Visible Results"
         description="Exclusively Available Through Top Dermatologists."
+        className="h-screen w-full " // Control max width to prevent overflow
       />
 
-      <div className="max-w-[1327px] mx-auto px-4">
+      <div className="w-full px-4 sm:max-w-[1327px] sm:mx-auto mt-12">
         {/* Heading Section */}
-        <div className="my-8">
+        <div className="mb-12">
           <Heading text="WHERE SCIENCE MEETS SIMPLICITY" />
         </div>
 
         {/* IconTextRow Section */}
-        <div className="my-8">
+        <div className="mb-16">
           <IconTextRow
             items={[
               {
@@ -129,7 +128,7 @@ const Home: NextPage = () => {
         </div>
 
         {/* CU Sunscreen Section */}
-        <div className="my-8">
+        <div className="mb-12 md:mb-20 mt-8">
           <Title text="CU Sunscreen" lineColor="#F68E1E" position="left" />
           <TwoSectionLayout
             firstSectionData={firstSectionData}
@@ -138,7 +137,7 @@ const Home: NextPage = () => {
         </div>
 
         {/* CU Ultra-light Moisturizer Section */}
-        <div className="my-8">
+        <div className="mb-12 md:mb-20 mt-8">
           <Title
             text="CU Ultra-light Moisturizer"
             lineColor="#0A73B9"
@@ -151,7 +150,7 @@ const Home: NextPage = () => {
         </div>
 
         {/* Ronagen Hair Serum Section */}
-        <div className="my-8">
+        <div className="mb-12 md:mb-20 mt-8">
           <Title
             text="Ronagen Hair Serum"
             lineColor="#0AB96D"
@@ -164,7 +163,7 @@ const Home: NextPage = () => {
         </div>
 
         {/* Ronagen + Hair Serum Section */}
-        <div className="my-8">
+        <div className="mb-12 md:mb-20 mt-8">
           <Title
             text="Ronagen+ Hair Serum"
             lineColor="#0AB96D"
@@ -177,9 +176,9 @@ const Home: NextPage = () => {
         </div>
 
         {/* Experts Section */}
-        <div className="my-8">
+        <div className="mb-24">
           <Heading text="TRUSTED BY EXPERTS" />
-          <div className="my-4">
+          <div className="mt-10">
             <DoctorTestimonialSection
               testimonials={testimonials}
               slideInterval={5000}
@@ -188,7 +187,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        {/* *Diara Fifference */}
+        {/* *Diara difference */}
         <div className="my-8">
           <Heading text="THE DIARA DIFFERENCE" />
           <div className="my-4">
@@ -198,6 +197,7 @@ const Home: NextPage = () => {
               productIcon="/images/protect.svg" // Replace with your product icon path
               productImage="/images/repair.svg" // Replace with your product image path
               productTitle="Super Hydrating Face Cream" // Example product title
+              className="rounded-xl overflow-hidden shadow-lg"
             />
           </div>
         </div>

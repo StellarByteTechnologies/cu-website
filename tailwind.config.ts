@@ -14,13 +14,30 @@ export default {
       maxWidth: {
         '1519': '1519px',
         '1327': '1327px'
-
       },
       colors: {
-        primary: "#2D8CF0", // Main brand color
-        secondary: "#F9A826", // Accent color
-        background: "#F5F5F5",
+        brand: {
+          primary: '#0A73B9',
+          secondary: '#F68E1E',
+          accent: '#0AB96D',
+          dark: '#1C1B1F',
+          light: '#F8F8F8',
+        },
+        text: {
+          primary: '#171717',
+          secondary: '#6B7280',
+          light: '#FFFFFF',
+        },
+        primary: "#2D8CF0", // Keeping original primary color
       },
+      borderRadius: {
+        'card': '12px',
+        'button': '8px',
+      },
+      boxShadow: {
+        'card': '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+        'button': '0 2px 4px rgba(0, 0, 0, 0.05)',
+      }
     },
   },
   plugins: [],

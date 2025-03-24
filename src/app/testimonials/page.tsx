@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Heading from '@/components/Heading';
-import DoctorTestimonialSection from '@/components/DoctorTestimonialSection';
+import DoctorTestimonialSection from '@/components/features/testimonials/DoctorTestimonialSection';
 import { motion } from 'framer-motion';
 
 const DermatTestimonial = () => {
