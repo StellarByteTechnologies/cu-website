@@ -39,7 +39,7 @@ const DoctorTestimonialSection: React.FC<DoctorTestimonialSectionProps> = ({
 
   return (
     <motion.div
-      className={`flex flex-col md:flex-row gap-[16px] md:gap-[24px] transition-all duration-500 ${
+      className={`flex flex-col md:flex-row gap-[16px] md:gap-[24px] w-full max-w-full transition-all duration-500 ${
         layout === 'right' ? 'md:flex-row-reverse' : ''
       }`}
       initial={{ opacity: 0, y: 30 }}
@@ -49,7 +49,7 @@ const DoctorTestimonialSection: React.FC<DoctorTestimonialSectionProps> = ({
     >
       {/* Doctor Image + Name & Occupation */}
       <motion.div
-        className="w-full max-w-[326px] h-[440px] md:w-[500px] md:h-[632px] mx-auto md:mx-0 rounded-card overflow-hidden relative shadow-card"
+        className="w-full h-[440px] max-w-[326px] md:max-w-none md:w-[539px] md:h-[632px] md:min-w-[539px] md:flex-shrink-0 mx-auto md:mx-0 rounded-card overflow-hidden relative shadow-card"
         initial={{ opacity: 0, x: -30 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
@@ -58,8 +58,7 @@ const DoctorTestimonialSection: React.FC<DoctorTestimonialSectionProps> = ({
           src={doctorImage}
           alt={`Dr. ${name}, ${occupation}`}
           fill
-          //sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 539px"
-          sizes="(max-width: 768px) 326px, 500px"
+          sizes="(max-width: 768px) 326px, 539px"
           className="rounded-card object-cover"
         />
 
@@ -81,7 +80,7 @@ const DoctorTestimonialSection: React.FC<DoctorTestimonialSectionProps> = ({
 
       {/* Video + Testimonial */}
       <motion.div
-        className="flex flex-col gap-3 md:gap-4 w-full max-w-[326px] md:w-[764px] mx-auto md:mx-0"
+        className="flex flex-col gap-3 md:gap-4 w-full max-w-[326px] md:max-w-none md:w-[764px] lg:w-[764px] md:flex-shrink-0 mx-auto md:mx-0"
         initial={{ opacity: 0, x: 30 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
