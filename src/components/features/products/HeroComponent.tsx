@@ -53,18 +53,24 @@ const HeroComponent: React.FC<HeroComponentProps> = ({
 
       <button
         onClick={togglePause}
-        className="absolute right-8 bottom-32 flex items-center gap-3"
+        className="mt-6 md:hidden flex items-center gap-3"
         aria-label={isPaused ? 'Play video' : 'Pause video'}
       >
-        <span className="text-white text-xl font-medium">
-          {isPaused ? 'Play' : 'Pause'}
-        </span>
+        <span className="text-white text-xl font-medium">Play</span>
         <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-          {isPaused ? (
-            <span className="text-black font-bold ml-0.5">▶</span>
-          ) : (
-            <span className="text-black font-bold">II</span>
-          )}
+          <span className="text-black font-bold">▶</span>
+        </div>
+      </button>
+
+      {/* Desktop pause button */}
+      <button
+        onClick={togglePause}
+        className="absolute right-8 bottom-32 hidden md:flex items-center gap-3"
+        aria-label={isPaused ? 'Play video' : 'Pause video'}
+      >
+        <span className="text-white text-xl font-medium">Pause</span>
+        <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+          <span className="text-black font-bold">II</span>
         </div>
       </button>
     </div>

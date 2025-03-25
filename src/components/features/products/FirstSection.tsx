@@ -47,7 +47,7 @@ export const FirstSection: React.FC<FirstSectionProps> = ({
           {pillContent.map((text, idx) => (
             <div
               key={idx}
-              className="px-4 py-2 border border-gray-300 rounded-full text-base font-medium whitespace-nowrap"
+              className="px-4 py-2 border border-gray-300 rounded-full text-base font-medium break-words whitespace-normal"
             >
               {text}
             </div>

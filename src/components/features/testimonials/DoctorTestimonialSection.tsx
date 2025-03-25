@@ -39,7 +39,7 @@ const DoctorTestimonialSection: React.FC<DoctorTestimonialSectionProps> = ({
 
   return (
     <motion.div
-      className={`flex flex-col md:flex-row gap-4 md:gap-6 transition-all duration-500 ${
+      className={`flex flex-col md:flex-row gap-[16px] md:gap-[24px] transition-all duration-500 ${
         layout === 'right' ? 'md:flex-row-reverse' : ''
       }`}
       initial={{ opacity: 0, y: 30 }}
@@ -49,7 +49,7 @@ const DoctorTestimonialSection: React.FC<DoctorTestimonialSectionProps> = ({
     >
       {/* Doctor Image + Name & Occupation */}
       <motion.div
-        className="w-[326px] h-[440px] md:w-[500px] md:h-[632px] mx-auto md:mx-0 rounded-card overflow-hidden relative shadow-card"
+        className="w-full max-w-[326px] h-[440px] md:w-[500px] md:h-[632px] mx-auto md:mx-0 rounded-card overflow-hidden relative shadow-card"
         initial={{ opacity: 0, x: -30 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
@@ -64,8 +64,8 @@ const DoctorTestimonialSection: React.FC<DoctorTestimonialSectionProps> = ({
         />
 
         {/* Name & Occupation Container */}
-        <div className="absolute bottom-0 left-0 w-full h-[140px] bg-white rounded-t-card p-3 md:p-4 flex flex-col shadow-md">
-          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium text-black leading-tight truncate">
+        <div className="absolute bottom-0 left-0 w-full h-[100px] md:h-[160px] bg-white rounded-t-card p-3 md:p-4 flex flex-col shadow-md">
+          <p className="text-xl md:text-3xl font-medium text-black leading-tight truncate">
             {name}
           </p>
 
@@ -73,7 +73,7 @@ const DoctorTestimonialSection: React.FC<DoctorTestimonialSectionProps> = ({
           <div className="w-full h-0.5 bg-black my-1 md:my-1.5"></div>
 
           {/* Occupation */}
-          <p className="text-sm sm:text-base font-medium text-gray-700 truncate">
+          <p className="text-sm md:text-base font-medium text-gray-700 truncate">
             {occupation}
           </p>
         </div>
@@ -81,7 +81,7 @@ const DoctorTestimonialSection: React.FC<DoctorTestimonialSectionProps> = ({
 
       {/* Video + Testimonial */}
       <motion.div
-        className="flex flex-col gap-3 md:gap-4 w-[326px] mx-auto md:mx-0 md:w-[764px]"
+        className="flex flex-col gap-3 md:gap-4 w-full max-w-[326px] md:w-[764px] mx-auto md:mx-0"
         initial={{ opacity: 0, x: 30 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
