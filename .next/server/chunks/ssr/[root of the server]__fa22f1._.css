@@ -479,8 +479,8 @@ img, video {
   bottom: 0;
 }
 
-.bottom-32 {
-  bottom: 8rem;
+.bottom-24 {
+  bottom: 6rem;
 }
 
 .bottom-4 {
@@ -527,10 +527,6 @@ img, video {
   right: 1.5rem;
 }
 
-.right-8 {
-  right: 2rem;
-}
-
 .right-\[20\%\] {
   right: 20%;
 }
@@ -553,10 +549,6 @@ img, video {
 
 .top-6 {
   top: 1.5rem;
-}
-
-.bottom-16 {
-  bottom: 4rem;
 }
 
 .z-50 {
@@ -636,6 +628,10 @@ img, video {
   margin-bottom: 20px;
 }
 
+.ml-0\.5 {
+  margin-left: .125rem;
+}
+
 .ml-3 {
   margin-left: .75rem;
 }
@@ -700,10 +696,6 @@ img, video {
   margin-top: 1rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
@@ -742,10 +734,6 @@ img, video {
 
 .mt-\[80px\] {
   margin-top: 80px;
-}
-
-.ml-1 {
-  margin-left: .25rem;
 }
 
 .block {
@@ -794,6 +782,10 @@ img, video {
 
 .h-4 {
   height: 1rem;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .h-\[100px\] {
@@ -884,6 +876,10 @@ img, video {
   width: .5rem;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .w-\[155px\] {
   width: 155px;
 }
@@ -934,6 +930,14 @@ img, video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[2\%\] {
+  width: 2%;
+}
+
+.w-\[92\%\] {
+  width: 92%;
 }
 
 .max-w-\[1300px\] {
@@ -1331,6 +1335,10 @@ img, video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
+.bg-black\/30 {
+  background-color: #0000004d;
+}
+
 .bg-black\/80 {
   background-color: #000c;
 }
@@ -1451,11 +1459,6 @@ img, video {
   padding-right: 1.5rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .py-1 {
   padding-top: .25rem;
   padding-bottom: .25rem;
@@ -1484,6 +1487,11 @@ img, video {
 .py-\[60px\] {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.px-0 {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .pb-0 {
@@ -1559,11 +1567,6 @@ img, video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .text-\[10px\] {
@@ -1785,6 +1788,12 @@ img, video {
 
 .backdrop-blur-lg {
   --tw-backdrop-blur: blur(16px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
@@ -2156,6 +2165,10 @@ html, body {
     display: none;
   }
 
+  .md\:h-10 {
+    height: 2.5rem;
+  }
+
   .md\:h-6 {
     height: 1.5rem;
   }
@@ -2192,6 +2205,10 @@ html, body {
     height: 632px;
   }
 
+  .md\:w-10 {
+    width: 2.5rem;
+  }
+
   .md\:w-14 {
     width: 3.5rem;
   }
@@ -2206,10 +2223,6 @@ html, body {
 
   .md\:w-\[400px\] {
     width: 400px;
-  }
-
-  .md\:w-\[500px\] {
-    width: 500px;
   }
 
   .md\:w-\[534px\] {
@@ -2332,13 +2345,13 @@ html, body {
     padding-bottom: 1.5rem;
   }
 
-  .md\:text-left {
-    text-align: left;
+  .md\:px-3 {
+    padding-left: .75rem;
+    padding-right: .75rem;
   }
 
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-3xl {
@@ -2353,11 +2366,6 @@ html, body {
 
   .md\:text-6xl {
     font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .md\:text-7xl {
-    font-size: 4.5rem;
     line-height: 1;
   }
 
@@ -2437,20 +2445,16 @@ html, body {
     width: 4rem;
   }
 
+  .lg\:w-\[764px\] {
+    width: 764px;
+  }
+
   .lg\:w-\[906px\] {
     width: 906px;
   }
 
   .lg\:w-full {
     width: 100%;
-  }
-
-  .lg\:w-\[539px\] {
-    width: 539px;
-  }
-
-  .lg\:w-\[764px\] {
-    width: 764px;
   }
 
   .lg\:grid-cols-4 {
@@ -2464,6 +2468,26 @@ html, body {
   .lg\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .lg\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
 

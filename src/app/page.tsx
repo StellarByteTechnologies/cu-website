@@ -8,6 +8,7 @@ import HeroComponent from '@/components/features/products/HeroComponent';
 import IconTextRow from '../components/features/products/IconTextRow';
 import DoctorTestimonialSection from '@/components/features/testimonials/DoctorTestimonialSection';
 import ProductComparisonSlider from '@/components/features/products/ProductComparisonSlider';
+import Container from '../components/ui/Container';
 
 const Home: NextPage = () => {
   const firstSectionData = {
@@ -98,9 +99,10 @@ const Home: NextPage = () => {
         className="h-screen w-full " // Control max width to prevent overflow
       />
 
-      <div className="w-full px-4 sm:max-w-[1327px] sm:mx-auto mt-12">
+      {/* <div className="w-full px-4 sm:max-w-[1327px] sm:mx-auto mt-12"> */}
+      <Container>
         {/* Heading Section */}
-        <div className="mb-12">
+        <div className="mb-12 mt-12">
           <Heading text="WHERE SCIENCE MEETS SIMPLICITY" />
         </div>
 
@@ -209,7 +211,7 @@ const Home: NextPage = () => {
             <TestimonialComponent />
           </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 };
