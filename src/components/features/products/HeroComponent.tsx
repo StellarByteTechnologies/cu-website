@@ -14,7 +14,7 @@ const HeroComponent: React.FC<HeroComponentProps> = ({
   description,
   className = '',
 }) => {
-  const [isPaused, setIsPaused] = useState(false); // Default to playing state
+  const [isPaused, setIsPaused] = useState(true); // Start assuming paused (safer)
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const togglePlayPause = () => {
@@ -22,17 +22,18 @@ const HeroComponent: React.FC<HeroComponentProps> = ({
       if (isPaused) {
         const playPromise = videoRef.current.play();
         if (playPromise !== undefined) {
-          playPromise.catch((error) => {
-            console.log('Play prevented:', error);
-          });
+          playPromise
+            .then(() => setIsPaused(false))
+            .catch((error) => console.log('Play failed:', error));
         }
       } else {
         videoRef.current.pause();
+        setIsPaused(true);
       }
-      setIsPaused(!isPaused);
     }
   };
 
+  // Use IntersectionObserver to play when visible
   useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
@@ -43,26 +44,44 @@ const HeroComponent: React.FC<HeroComponentProps> = ({
     video.addEventListener('play', handlePlay);
     video.addEventListener('pause', handlePause);
 
-    // Force play on component mount with user interaction simulation
-    const playVideo = () => {
+    // iOS Safari autoplay hack
+    const attemptAutoplay = () => {
       const playPromise = video.play();
       if (playPromise !== undefined) {
-        playPromise.catch((error) => {
-          console.log('Autoplay prevented:', error);
-          setIsPaused(true);
-        });
+        playPromise
+          .then(() => setIsPaused(false))
+          .catch((error) => {
+            console.log('Autoplay failed:', error);
+            setIsPaused(true);
+          });
       }
     };
 
-    // Try immediate play
-    playVideo();
+    // Create IntersectionObserver to detect when video is visible
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          attemptAutoplay();
+        } else {
+          video.pause();
+          setIsPaused(true);
+        }
+      },
+      { threshold: 0.1 }
+    );
 
-    // Fallback play attempt after a short delay
-    setTimeout(playVideo, 500);
+    observer.observe(video);
+
+    // Try to autoplay immediately
+    attemptAutoplay();
+
+    // Also try after a short delay
+    setTimeout(attemptAutoplay, 1000);
 
     return () => {
       video.removeEventListener('play', handlePlay);
       video.removeEventListener('pause', handlePause);
+      observer.disconnect();
     };
   }, []);
 
@@ -76,6 +95,7 @@ const HeroComponent: React.FC<HeroComponentProps> = ({
         playsInline
         muted
         loop
+        preload="auto"
         aria-hidden="true"
       />
 
@@ -90,16 +110,16 @@ const HeroComponent: React.FC<HeroComponentProps> = ({
         </div>
       </div>
 
-      {/* Play/pause button - Moved up by 10px on mobile */}
+      {/* Same button design for mobile and desktop */}
       <button
         onClick={togglePlayPause}
-        className="absolute bottom-32 md:bottom-24 right-4 flex items-center gap-2 bg-black/30 backdrop-blur-sm px-3 py-2 rounded-full"
+        className="absolute right-8 bottom-24 flex items-center gap-3"
         aria-label={isPaused ? 'Play video' : 'Pause video'}
       >
-        <span className="text-white text-base font-medium">
+        <span className="text-white text-xl font-medium">
           {isPaused ? 'Play' : 'Pause'}
         </span>
-        <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+        <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
           {isPaused ? (
             <span className="text-black font-bold ml-0.5">▶</span>
           ) : (
