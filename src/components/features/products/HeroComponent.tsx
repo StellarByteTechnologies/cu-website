@@ -14,7 +14,7 @@ const HeroComponent: React.FC<HeroComponentProps> = ({
   description,
   className = '',
 }) => {
-  const [isPaused, setIsPaused] = useState(true); // Start assuming paused (safer)
+  const [isPaused, setIsPaused] = useState(false); // Start with playing state
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const togglePlayPause = () => {
@@ -33,7 +33,6 @@ const HeroComponent: React.FC<HeroComponentProps> = ({
     }
   };
 
-  // Use IntersectionObserver to play when visible
   useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
@@ -44,44 +43,38 @@ const HeroComponent: React.FC<HeroComponentProps> = ({
     video.addEventListener('play', handlePlay);
     video.addEventListener('pause', handlePause);
 
-    // iOS Safari autoplay hack
-    const attemptAutoplay = () => {
-      const playPromise = video.play();
-      if (playPromise !== undefined) {
-        playPromise
-          .then(() => setIsPaused(false))
-          .catch((error) => {
-            console.log('Autoplay failed:', error);
-            setIsPaused(true);
-          });
+    // Aggressive autoplay for iOS Safari
+    const playVideo = async () => {
+      try {
+        await video.play();
+        setIsPaused(false);
+      } catch (err) {
+        console.log('Autoplay prevented:', err);
+        setIsPaused(true);
       }
     };
 
-    // Create IntersectionObserver to detect when video is visible
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          attemptAutoplay();
-        } else {
-          video.pause();
-          setIsPaused(true);
-        }
+    // Try to play immediately
+    playVideo();
+
+    // Also try on user interaction simulation
+    document.addEventListener(
+      'touchstart',
+      function onFirstTouch() {
+        playVideo();
+        document.removeEventListener('touchstart', onFirstTouch);
       },
-      { threshold: 0.1 }
+      { once: true }
     );
 
-    observer.observe(video);
-
-    // Try to autoplay immediately
-    attemptAutoplay();
-
-    // Also try after a short delay
-    setTimeout(attemptAutoplay, 1000);
+    // Try multiple times with increasing delays
+    setTimeout(playVideo, 300);
+    setTimeout(playVideo, 1000);
+    setTimeout(playVideo, 2000);
 
     return () => {
       video.removeEventListener('play', handlePlay);
       video.removeEventListener('pause', handlePause);
-      observer.disconnect();
     };
   }, []);
 
@@ -110,10 +103,10 @@ const HeroComponent: React.FC<HeroComponentProps> = ({
         </div>
       </div>
 
-      {/* Same button design for mobile and desktop */}
+      {/* Button with background */}
       <button
         onClick={togglePlayPause}
-        className="absolute right-8 bottom-24 flex items-center gap-3"
+        className="absolute right-8 bottom-24 flex items-center gap-3 bg-black/30 backdrop-blur-sm px-3 py-2 rounded-full"
         aria-label={isPaused ? 'Play video' : 'Pause video'}
       >
         <span className="text-white text-xl font-medium">
