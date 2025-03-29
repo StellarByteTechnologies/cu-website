@@ -156,17 +156,19 @@ const Navbar: React.FC = () => {
           </motion.div>
         </div>
 
-        <motion.button
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full bg-white/10 backdrop-blur-md text-white cursor-pointer z-50 absolute right-6 top-1/2 -translate-y-1/2"
-          onClick={toggleMenu}
-          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
-          aria-expanded={menuOpen}
-          aria-controls="mobile-menu"
-        >
-          {menuOpen ? <FiX size={20} /> : <FiMenu size={20} />}
-        </motion.button>
+        <div className="flex items-center lg:hidden">
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 backdrop-blur-md text-white cursor-pointer z-50"
+            onClick={toggleMenu}
+            aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={menuOpen}
+            aria-controls="mobile-menu"
+          >
+            {menuOpen ? <FiX size={20} /> : <FiMenu size={20} />}
+          </motion.button>
+        </div>
       </motion.nav>
 
       <AnimatePresence>
@@ -204,17 +206,17 @@ const Navbar: React.FC = () => {
             />
           </Link>
           <motion.button
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            className="flex items-center justify-center w-8 h-8 rounded-full bg-white/10 text-white"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="flex items-center justify-center w-8 h-8 text-white"
             onClick={toggleMenu}
             aria-label="Close menu"
           >
-            <FiX size={16} />
+            <FiX size={24} />
           </motion.button>
         </div>
 
-        <div className="w-full mt-6 flex flex-col items-start gap-6">
+        <div className="w-full mt-4 flex flex-col items-start gap-4">
           {navLinks.map((link, i) => (
             <motion.div
               key={link.href}
@@ -226,11 +228,11 @@ const Navbar: React.FC = () => {
               <Link
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
-                className="group w-full flex items-center gap-3 p-3 rounded-xl 
+                className="group w-full flex items-center gap-3 py-2 rounded-xl 
                   hover:bg-white/5 transition-all duration-300"
               >
                 <span
-                  className={`text-xl font-medium transition-all duration-300
+                  className={`text-lg font-medium transition-all duration-300
                   ${
                     pathname === link.href
                       ? 'text-white'
