@@ -15,9 +15,7 @@ const Home: NextPage = () => {
     icon: (
       <Image src="/images/sunscreen.svg" alt="Icon" width={48} height={48} />
     ),
-    centerImage: (
-      <Image src="/images/hydrate.svg" alt="Center" width={150} height={150} />
-    ),
+
     bottomRightImage: (
       <Image
         src="/images/stamp.svg"

@@ -22,32 +22,37 @@ export const FirstSection: React.FC<FirstSectionProps> = ({
   className = '',
 }) => {
   return (
-    <div
-      className={`w-full bg-[#F8F8F8] rounded-xl p-6 pb-0 relative ${className}`}
-    >
-      {/* Top Left Icon */}
-      <div className="absolute top-6 left-6">{icon}</div>
+    <div className={`w-full rounded-xl overflow-hidden ${className}`}>
+      {/* Fixed size container with explicit height to avoid layout issues */}
+      <div className="w-full h-[520px] bg-[#F5F5F7] relative">
+        {/* Absolutely positioned sun icon */}
+        <div className="absolute left-6 top-6 z-10">{icon}</div>
 
-      {/* Product Image - Centered and larger */}
-      <div className="w-full flex items-center justify-center pt-16 pb-8">
-        <Image
-          src="/images/product.png"
-          alt="Product"
-          width={250}
-          height={350}
-          className="object-contain"
-        />
+        {/* Absolutely positioned product image - centered and with higher z-index to appear on top */}
+        <div className="absolute inset-0 flex items-center justify-center z-20">
+          <div style={{ height: '450px' }}>
+            <Image
+              src="/images/sunscreen/front.png"
+              alt="CU Sunscreen"
+              width={320}
+              height={450}
+              className="h-[450px] w-auto object-contain"
+              priority
+            />
+          </div>
+        </div>
+
+        {/* Absolutely positioned certification stamp */}
+        <div className="absolute bottom-6 right-6 z-10">{bottomRightImage}</div>
       </div>
 
-      {/* Certification Stamp */}
-      <div className="absolute bottom-[250px] right-6">{bottomRightImage}</div>
-
-      <div className="w-full bg-white rounded-t-xl p-4 md:p-6">
-        <div className="flex flex-col items-start gap-3">
+      {/* Pills section in white box */}
+      <div className="w-full bg-white p-5">
+        <div className="flex flex-wrap gap-3 justify-center">
           {pillContent.map((text, idx) => (
             <div
               key={idx}
-              className="px-4 py-2 border border-gray-300 rounded-full text-base font-medium break-words whitespace-normal"
+              className="px-5 py-2.5 border border-gray-300 rounded-full text-lg font-medium text-gray-700"
             >
               {text}
             </div>
@@ -57,7 +62,6 @@ export const FirstSection: React.FC<FirstSectionProps> = ({
     </div>
   );
 };
-
 //second section
 export const SecondSection: React.FC<SecondSectionProps> = ({
   sliderImages,
