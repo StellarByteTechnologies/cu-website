@@ -159,7 +159,7 @@ const Navbar: React.FC = () => {
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full bg-white/10 backdrop-blur-md text-white cursor-pointer z-50"
+          className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full bg-white/10 backdrop-blur-md text-white cursor-pointer z-50 fixed right-6 top-6"
           onClick={toggleMenu}
           aria-label={menuOpen ? 'Close menu' : 'Open menu'}
           aria-expanded={menuOpen}
@@ -188,10 +188,10 @@ const Navbar: React.FC = () => {
         initial="closed"
         animate={menuOpen ? 'open' : 'closed'}
         variants={menuVariants}
-        className="fixed top-0 right-0 w-[75%] sm:w-[60%] h-full bg-gradient-to-b from-[#1C1B1F] to-[#252429] 
-          z-50 shadow-xl rounded-l-3xl p-8 flex flex-col items-start lg:hidden"
+        className="fixed top-0 right-0 w-[75%] sm:w-[60%] h-full bg-[#1C1B1F] 
+          z-50 shadow-xl p-6 flex flex-col items-start lg:hidden overflow-y-auto"
       >
-        <div className="w-full flex justify-between items-center mb-8">
+        <div className="w-full flex justify-between items-center mb-4">
           <Link href="/" onClick={() => setMenuOpen(false)}>
             <Image
               src="/images/logo.svg"
@@ -203,11 +203,11 @@ const Navbar: React.FC = () => {
           <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white"
+            className="flex items-center justify-center w-8 h-8 rounded-full bg-white/10 text-white"
             onClick={toggleMenu}
             aria-label="Close menu"
           >
-            <FiX size={20} />
+            <FiX size={16} />
           </motion.button>
         </div>
 
@@ -249,7 +249,7 @@ const Navbar: React.FC = () => {
         </div>
 
         <motion.div
-          className="mt-auto w-full"
+          className="mt-8 w-full"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
@@ -258,12 +258,12 @@ const Navbar: React.FC = () => {
             href="https://wa.me/919876543210"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full bg-gradient-to-r from-green-500 to-green-700 text-white p-4 rounded-xl 
-              flex items-center justify-center gap-3 transition-all duration-300 
-              hover:shadow-lg hover:shadow-green-500/20"
+            className="w-full bg-green-500 text-white py-2 px-4 rounded-lg 
+              flex items-center justify-center gap-2 transition-all duration-300 
+              hover:bg-green-600"
           >
-            <FaWhatsapp className="text-white text-xl" />
-            <span className="text-base font-medium">Contact via WhatsApp</span>
+            <FaWhatsapp className="text-white text-lg" />
+            <span className="text-sm font-medium">Contact via WhatsApp</span>
           </a>
 
           <div className="mt-6 text-center text-gray-400 text-sm">
