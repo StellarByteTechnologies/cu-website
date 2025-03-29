@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -27,17 +26,14 @@ const Footer = () => {
 
               {/* Button with Dot */}
               <div className="flex justify-center md:justify-start items-center mt-[12px] sm:mt-[16px]">
-                <button className="text-white text-[12px] sm:text-[14px] font-semibold px-3 sm:px-4 py-1.5 sm:py-2 border border-white rounded-full hover:bg-white hover:text-black transition-all">
+                <a
+                  href="/about-us"
+                  className="text-white text-[12px] sm:text-[14px] font-semibold px-3 sm:px-4 py-1.5 sm:py-2 border border-white rounded-full hover:bg-white hover:text-black transition-all"
+                >
                   More about us
-                </button>
+                </a>
                 <div className="w-[8px] sm:w-[10px] h-[8px] sm:h-[10px] bg-white rounded-full ml-[8px] sm:ml-[12px]"></div>
               </div>
-
-              {/* Copyright Text */}
-              <p className="text-[#8F9FA3] text-[10px] sm:text-[12px] leading-[140%] text-center md:text-left mt-[12px] sm:mt-[16px]">
-                © 2025 Diara Care Private Limited. All rights reserved. All
-                trademarks are the property of their respective owners.
-              </p>
             </div>
 
             {/* Right Section (Links + Contact) */}
@@ -45,11 +41,22 @@ const Footer = () => {
               {/* Links (Responsive Grid) */}
               <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-4 sm:gap-x-6 gap-y-2 sm:gap-y-3 text-center md:text-left">
                 {[
-                  { href: '/about', label: 'About' },
+                  { href: '/about-us', label: 'About' }, // Fixed path
                   { href: '/dermats', label: 'Dermats' },
                   { href: '/magic-code', label: 'Magic Code' },
                   { href: '/testimonials', label: 'Testimonials' },
-                  { href: '/terms', label: 'Terms & Conditions' },
+                  {
+                    href: '/terms',
+                    label: (
+                      <>
+                        Terms &
+                        <span className="hidden md:inline">
+                          <br />
+                        </span>{' '}
+                        Conditions
+                      </>
+                    ),
+                  },
                   { href: '/privacy-policy', label: 'Privacy Policy' },
                   { href: '/shipping-policy', label: 'Shipping Policy' },
                   {
@@ -60,7 +67,7 @@ const Footer = () => {
                   <a
                     key={link.href}
                     href={link.href}
-                    className="text-[#8F9FA3] text-[14px] sm:text-[16px] hover:text-white hover:font-bold transition-all"
+                    className="text-[#8F9FA3] text-[14px] sm:text-[16px] hover:text-white hover:font-semibold transition-all whitespace-nowrap"
                   >
                     {link.label}
                   </a>
@@ -94,7 +101,8 @@ const Footer = () => {
         {/* Divider */}
         <div className="w-full max-w-[1327px] border-t border-gray-700 mt-4 sm:mt-6 pt-3 sm:pt-4"></div>
 
-        {/* Social Media Icons */}
+        {/* Social Media Icons (Commented Out) */}
+        {/*
         <div className="flex gap-4 sm:gap-6 mt-3 sm:mt-4">
           <a
             href="https://instagram.com"
@@ -117,6 +125,15 @@ const Footer = () => {
           >
             <FaLinkedin className="text-[#8F9FA3] hover:text-white text-xl sm:text-2xl transition-all" />
           </a>
+        </div>
+        */}
+
+        {/* Copyright at Bottom */}
+        <div className="mt-4 sm:mt-6 text-center">
+          <p className="text-[#8F9FA3] text-[10px] sm:text-[12px] leading-[140%]">
+            © 2025 Diara Care Private Limited. All rights reserved. All
+            trademarks are the property of their respective owners.
+          </p>
         </div>
       </div>
     </footer>

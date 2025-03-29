@@ -150,30 +150,8 @@ const Home: NextPage = () => {
         </div>
 
         {/* Ronagen Hair Serum Section */}
-        <div className="mb-12 md:mb-20 mt-8">
-          <Title
-            text="Ronagen Hair Serum"
-            lineColor="#0AB96D"
-            position="left"
-          />
-          <TwoSectionLayout
-            firstSectionData={firstSectionData}
-            secondSectionData={secondSectionData}
-          />
-        </div>
 
         {/* Ronagen + Hair Serum Section */}
-        <div className="mb-12 md:mb-20 mt-8">
-          <Title
-            text="Ronagen+ Hair Serum"
-            lineColor="#0AB96D"
-            position="right"
-          />
-          <TwoSectionLayout
-            firstSectionData={firstSectionData}
-            secondSectionData={secondSectionData}
-          />
-        </div>
 
         {/* Experts Section */}
         <div className="mb-24">

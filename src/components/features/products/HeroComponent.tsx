@@ -27,6 +27,8 @@ const HeroComponent: React.FC<HeroComponentProps> = ({
   const attemptPlayVideo = () => {
     if (!videoRef.current) return;
 
+    videoRef.current.playbackRate = 0.75; // 👈 Set slower playback rate
+
     const playPromise = videoRef.current.play();
     if (playPromise !== undefined) {
       playPromise
