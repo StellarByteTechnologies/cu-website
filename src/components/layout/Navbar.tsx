@@ -159,7 +159,7 @@ const Navbar: React.FC = () => {
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full bg-white/10 backdrop-blur-md text-white cursor-pointer z-50 fixed right-6 top-6"
+          className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full bg-white/10 backdrop-blur-md text-white cursor-pointer z-50 absolute right-6 top-1/2 -translate-y-1/2"
           onClick={toggleMenu}
           aria-label={menuOpen ? 'Close menu' : 'Open menu'}
           aria-expanded={menuOpen}
@@ -196,8 +196,11 @@ const Navbar: React.FC = () => {
             <Image
               src="/images/logo.svg"
               alt="Diara Logo"
-              width={60}
-              height={60}
+              width={80}
+              height={30}
+              priority
+              quality={100}
+              className="w-auto h-auto"
             />
           </Link>
           <motion.button
