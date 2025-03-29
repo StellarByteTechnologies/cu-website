@@ -196,11 +196,8 @@ const Navbar: React.FC = () => {
             <Image
               src="/images/logo.svg"
               alt="Diara Logo"
-              width={80}
-              height={30}
-              priority
-              quality={100}
-              className="w-auto h-auto"
+              width={60}
+              height={60}
             />
           </Link>
           <motion.button
